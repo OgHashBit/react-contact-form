@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div className='App'>
       <div className='container'>
-        <h1 className='text-center'>Request your real diamonds!</h1>
+        <h1 className='text-center'>Request your real diamond right now!</h1>
         <ContactForm />
       </div>
     </div>
