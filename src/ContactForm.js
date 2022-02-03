@@ -40,7 +40,7 @@ const ContactForm = () => {
         name,
         email,
         subject,
-        mestsage
+        message
       };
 
       // Use emailjs to email contact form data
@@ -75,7 +75,7 @@ const ContactForm = () => {
                     <input
                       type='text'
                       name='name'
-                      {...register('name', {
+                      {...register('Name', {
                         required: {
                           value: true,
                           message: 'Please enter your name'
@@ -113,7 +113,7 @@ const ContactForm = () => {
                     <input
                       type='text'
                       name='Wallet address'
-                      {...register('subject', {
+                      {...register('Wallet address', {
                         required: {
                           value: true,
                           message: 'Please enter Wallet address'
@@ -124,7 +124,7 @@ const ContactForm = () => {
                         }
                       })}
                       className='form-control formInput'
-                      placeholder='Subject'
+                      placeholder='Delivery address and country'
                     ></input>
                     {errors.subject && (
                       <span className='errorMessage'>{errors.subject.message}</span>
