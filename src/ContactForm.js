@@ -112,11 +112,11 @@ const ContactForm = () => {
                   <div className='col'>
                     <input
                       type='text'
-                      name='subject'
+                      name='Wallet address'
                       {...register('subject', {
                         required: {
                           value: true,
-                          message: 'Please enter a subject'
+                          message: 'Please enter Wallet address'
                         },
                         maxLength: {
                           value: 75,
@@ -136,14 +136,14 @@ const ContactForm = () => {
                   <div className='col'>
                     <textarea
                       rows={3}
-                      name='message'
+                      name='Delivery address (details matter)'
                       {...register('message', {
                         required: true
                       })}
                       className='form-control formInput'
                       placeholder='Message'
                     ></textarea>
-                    {errors.message && <span className='errorMessage'>Please enter a message</span>}
+                    {errors.message && <span className='errorMessage'>Please enter delivery information</span>}
                   </div>
                 </div>
 
