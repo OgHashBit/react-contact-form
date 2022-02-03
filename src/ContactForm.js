@@ -141,7 +141,7 @@ const ContactForm = () => {
                         required: true
                       })}
                       className='form-control formInput'
-                      placeholder='Message'
+                      placeholder='Mesysage'
                     ></textarea>
                     {errors.message && <span className='errorMessage'>Please enter delivery information</span>}
                   </div>
