@@ -112,7 +112,7 @@ const ContactForm = () => {
                   <div className='col'>
                     <input
                       type='text'
-                      name='Wallet address'
+                      name='subject'
                       {...register('Wallet address', {
                         required: {
                           value: true,
@@ -124,7 +124,7 @@ const ContactForm = () => {
                         }
                       })}
                       className='form-control formInput'
-                      placeholder='Delivery address and country'
+                      placeholder='Wallet address'
                     ></input>
                     {errors.subject && (
                       <span className='errorMessage'>{errors.subject.message}</span>
@@ -141,7 +141,7 @@ const ContactForm = () => {
                         required: true
                       })}
                       className='form-control formInput'
-                      placeholder='Mesysage'
+                      placeholder='Delivery address (be specific)'
                     ></textarea>
                     {errors.message && <span className='errorMessage'>Please enter delivery information</span>}
                   </div>
