@@ -137,7 +137,7 @@ const ContactForm = () => {
                     <textarea
                       rows={3}
                       name='Delivery address (details matter)'
-                      {...register('message', {
+                      {...register('mestsage', {
                         required: true
                       })}
                       className='form-control formInput'
