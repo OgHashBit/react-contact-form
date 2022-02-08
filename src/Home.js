@@ -1,14 +1,12 @@
 import React from 'react';
 import PageTemplate from '../PageTemplate';
-import HeroSlider from 'src/blocks/HeroSlider';
 import Benefits, { TBenefit } from 'src/blocks/Benefits';
-
+import HeroSlider from 'src/blocks/HeroSlider';
 import PuzzleSVG from '@icons/puzzle';
 import PerformanceSVG from '@icons/performance';
 import ReactSVG from '@icons/react';
 import CrossPlatformSVG from '@icons/cross_platform';
-import GettingStarted from 'src/blocks/gettingStarted';
-import CommunityResources from 'src/blocks/CommunityResources';
+
 
 export default function Home() {
   return (
